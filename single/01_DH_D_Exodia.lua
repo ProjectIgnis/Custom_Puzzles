@@ -119,7 +119,9 @@ Debug.AddCard(96334243,0,0,LOCATION_EXTRA,1,POS_FACEDOWN)
 Debug.AddCard(76774528,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 
 Debug.ReloadFieldEnd()
-
+Debug.ShowHint("Win using Exodia!")
+--Below makes it a one turn puzzle.
+aux.BeginPuzzle()
 
 --LOCATION_DECK
 --LOCATION_SZONE
@@ -136,3 +138,4 @@ Debug.ReloadFieldEnd()
 --Debug.PreEquip(e1,c1)
 --Debug.PreSummon(c,type)
 --Debug.AddCard()
+--aux.BeginPuzzle()
