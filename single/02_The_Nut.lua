@@ -2,7 +2,7 @@ Debug.SetAIName("Oh nuts...")
 Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI)
 
 Debug.SetPlayerInfo(0,8000,0,0)
-Debug.SetPlayerInfo(1,500,0,0)
+Debug.SetPlayerInfo(1,1000,0,0)
 --AI stuff
 --AI's field
 --Eater of Millions aka All consuming Glutton
@@ -123,12 +123,14 @@ Debug.AddCard(04290468,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 Debug.AddCard(38148100,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 --Battlecruiser Dianthus
 Debug.AddCard(40424929,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
---Dark Strike Fighter
-Debug.AddCard(32646477,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
+--Scrap Archfiend
+Debug.AddCard(45815891,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 --Number 10
 Debug.AddCard(11411223,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 --Hieratic sun dragon
 Debug.AddCard(64332231,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
+--Cardian Lightflare
+Debug.AddCard(87460579,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
 Debug.ReloadFieldEnd()
 aux.BeginPuzzle()
 
