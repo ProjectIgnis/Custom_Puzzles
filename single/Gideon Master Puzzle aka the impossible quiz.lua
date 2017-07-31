@@ -15,7 +15,7 @@ Debug.AddCard(29549364,1,1,LOCATION_SZONE,0,POS_FACEUP)
 
 Debug.ReloadFieldEnd()
 Debug.PreSetTarget(zone,bamboo)
-Debug.ShowHint("Try to defeat Gideon, you masochist.")
+Debug.ShowHint("Try to defeat Gideon, you masochist. To win, you must remove at least 1 of the cards on the field from the field.")
 
 --Pre-draw
 local e1=Effect.CreateEffect(card)
