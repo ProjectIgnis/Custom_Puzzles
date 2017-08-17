@@ -248,6 +248,7 @@ e1:SetOperation(function(e,tp,eg,ep,ev,re,r,rp)
 		local str=io.read()
 		Duel.BreakEffect()
 		local lp=tonumber(str)
+		if str==nil or lp==nil then lp=8000 end
 		Duel.BreakEffect()
 		if type(lp)=="number" and lp>0 and lp<2147483648 then
 			Duel.SetLP(tp,lp)
@@ -265,7 +266,8 @@ e1:SetOperation(function(e,tp,eg,ep,ev,re,r,rp)
 		Duel.BreakEffect()
 		local str=io.read()
 		Duel.BreakEffect()
-		local lp=tonumber(str,10)
+		local lp=tonumber(str)
+		if str==nil or lp==nil then lp=8000 end
 		Duel.BreakEffect()
 		if type(lp)=="number" and lp>0 and lp<2147483648 then
 			Duel.SetLP(1-tp,lp)
