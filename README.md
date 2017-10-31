@@ -2,3 +2,4 @@
 Folder holding my custom puzzles me and others have made.
 Merge with ygopro's single folder.
 If a puzzle uses newer cards, as some of these do, you will need to copy the contents of Live2017's and Liveanime's script folders to ygopro's main script folder, as puzzle mode does not read live scripts.
+Card name to ID converter https://alphakretin.github.io/html/idconv
