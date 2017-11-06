@@ -1,7 +1,7 @@
 --Synchro Tutorial
 --AlphaKretin
 Debug.SetAIName("TutorialBot")
-Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,3)
 
 Debug.SetPlayerInfo(0,4000,0,0)
 Debug.SetPlayerInfo(1,1000,0,0)

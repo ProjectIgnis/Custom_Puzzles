@@ -1,7 +1,7 @@
 --Revive Limit
 --AlphaKretin
 Debug.SetAIName("RulingBot")
-Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,3)
 
 Debug.SetPlayerInfo(0,6000,0,0)
 Debug.SetPlayerInfo(1,4000,0,0)
