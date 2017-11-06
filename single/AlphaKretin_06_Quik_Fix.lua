@@ -1,5 +1,5 @@
 Debug.SetAIName("AlphaKretin")
-Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,4)
 
 Debug.SetPlayerInfo(0,1000,0,0)
 Debug.SetPlayerInfo(1,12200,0,0)
@@ -23,12 +23,13 @@ Debug.AddCard(65305468,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --F0
 Debug.AddCard(89642993,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Shamoji Soldier! :D
 Debug.AddCard(84124261,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Utopia Tree
 Debug.AddCard(52653092,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Literaly Yuma
+Debug.AddCard(3987233,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Fabulous Doggo
 
 --Player's Hand
 Debug.AddCard(78080961,0,0,LOCATION_HAND,0,POS_FACEDOWN) --QF
 
 --Player's Field
-Debug.AddCard(41091257,0,0,LOCATION_MZONE,2,POS_FACEUP_ATTACK) --Dandy
+Debug.AddCard(41091257,0,0,LOCATION_MZONE,1,POS_FACEUP_ATTACK) --Dandy
 Debug.AddCard(2295440,0,0,LOCATION_SZONE,1,POS_FACEDOWN) --141
 Debug.AddCard(63995093,0,0,LOCATION_SZONE,2,POS_FACEDOWN) --Machine Dupe
 Debug.AddCard(37364101,0,0,LOCATION_SZONE,3,POS_FACEDOWN) --Stoic Challenge
@@ -48,6 +49,8 @@ Debug.AddCard(30979619,0,0,LOCATION_DECK,0,POS_FACEDOWN) --Toot toot, chugga chu
 Debug.AddCard(73828446,0,0,LOCATION_DECK,0,POS_FACEDOWN) --I can't think of a joke for fully armed, sad
 Debug.AddCard(73828446,0,0,LOCATION_DECK,0,POS_FACEDOWN) --I can't think of a joke for fully armed, sad
 Debug.AddCard(73828446,0,0,LOCATION_DECK,0,POS_FACEDOWN) --I can't think of a joke for fully armed, sad
+Debug.AddCard(53989821,0,0,LOCATION_DECK,0,POS_FACEDOWN) --Util wire
+Debug.AddCard(53989821,0,0,LOCATION_DECK,0,POS_FACEDOWN) --Util wire
 
 --Player's GY
 

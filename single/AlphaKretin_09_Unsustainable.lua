@@ -1,6 +1,6 @@
 --https://www.youtube.com/watch?v=l-RCcbfvo3Q
 Debug.SetAIName("Jebus McAzn")
-Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_ATTACK_FIRST_TURN)
+Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_ATTACK_FIRST_TURN,3)
 
 Debug.SetPlayerInfo(0,7700,0,0)
 Debug.SetPlayerInfo(1,6000,0,0)

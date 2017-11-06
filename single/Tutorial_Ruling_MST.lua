@@ -1,7 +1,7 @@
 --Does MST Negate?
 --AlphaKretin
 Debug.SetAIName("RulingBot")
-Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,3)
 
 Debug.SetPlayerInfo(0,4000,0,0)
 Debug.SetPlayerInfo(1,1250,0,0)

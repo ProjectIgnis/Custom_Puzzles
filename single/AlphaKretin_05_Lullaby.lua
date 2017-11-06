@@ -1,5 +1,5 @@
 Debug.SetAIName("AlphaKretin")
-Debug.ReloadFieldBegin(DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,3)
 
 Debug.SetPlayerInfo(0,2001,0,0)
 Debug.SetPlayerInfo(1,2000000000,0,0)

@@ -1,5 +1,5 @@
 Debug.SetAIName("AlphaKretin")
-Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE)
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI+DUEL_PSEUDO_SHUFFLE,3)
 
 Debug.SetPlayerInfo(0,1,0,0)
 Debug.SetPlayerInfo(1,500,0,0)
@@ -11,7 +11,7 @@ local skull=Debug.AddCard(45349196,1,1,LOCATION_MZONE,2,POS_FACEUP_ATTACK) --Arc
 local dora=Debug.AddCard(49032236,1,1,LOCATION_MZONE,3,POS_FACEUP_ATTACK) --Number 81: Superdreadnought Rail Cannon Super Dora
 Debug.AddCard(94092230,1,1,LOCATION_MZONE,4,POS_FACEUP_ATTACK) --Steelswarm Hercules
 Debug.AddCard(00269012,1,1,LOCATION_SZONE,5,POS_FACEUP) --Mound of the Bound Creator, protection from Zaborg
-Debug.AddCard(45103815,1,1,LOCATION_SZONE,6,POS_FACEUP) --Risebell, flavor for L10 B Skull
+Debug.AddCard(45103815,1,1,LOCATION_PZONE,1,POS_FACEUP) --Risebell, flavor for L10 B Skull
 Debug.AddCard(07153114,1,1,LOCATION_SZONE,0,POS_FACEUP) --Field barrier, in case player summons break sword
 local ab=Debug.AddCard(94253609,1,1,LOCATION_SZONE,1,POS_FACEUP) --Elemental absorber, CDD can't attack
 

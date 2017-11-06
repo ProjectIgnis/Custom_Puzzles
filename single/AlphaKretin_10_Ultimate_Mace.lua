@@ -1,5 +1,5 @@
 Debug.SetAIName("Sanct")
-Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_SIMPLE_AI+DUEL_ATTACK_FIRST_TURN)
+Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_SIMPLE_AI+DUEL_ATTACK_FIRST_TURN,3)
 
 Debug.SetPlayerInfo(0,200,0,0)
 Debug.SetPlayerInfo(1,27300,0,0)
