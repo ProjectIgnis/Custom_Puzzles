@@ -1,5 +1,5 @@
 Debug.SetAIName("AlphaKretin")
-Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_TEST_MODE)
+Debug.ReloadFieldBegin(DUEL_PSEUDO_SHUFFLE+DUEL_TEST_MODE,3)
 
 Debug.SetPlayerInfo(0,1000,0,0)
 Debug.SetPlayerInfo(1,7200,0,0)
@@ -37,7 +37,7 @@ Debug.AddCard(36426778,0,0,LOCATION_HAND,0,POS_FACEDOWN) --PK Boots
 --Player's Field
 Debug.AddCard(63881033,0,0,LOCATION_SZONE,2,POS_FACEDOWN) --Marshalling Field
 Debug.AddCard(74701381,0,0,LOCATION_SZONE,1,POS_FACEDOWN) --Dna Surg
-Debug.AddCard(17086528,0,0,LOCATION_SZONE,6,POS_FACEUP) --Xiangsheng Magician
+Debug.AddCard(17086528,0,0,LOCATION_PZONE,1,POS_FACEUP) --Xiangsheng Magician
 
 --Player's Main Deck
 Debug.AddCard(3298689,0,0,LOCATION_DECK,0,POS_FACEDOWN) --PK RUM

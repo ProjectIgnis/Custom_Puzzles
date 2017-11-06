@@ -13,7 +13,7 @@ Debug.AddCard(74069667,1,1,LOCATION_MZONE,2,POS_FACEUP_ATTACK) --DDD Ragnarok
 Debug.AddCard(67808837,0,0,LOCATION_EXTRA,0,POS_FACEUP) --PPal King Bear
 
 --Player's Field
-Debug.AddCard(20409757,0,0,LOCATION_SZONE,7,POS_FACEUP) --Timegazer in scale
+Debug.AddCard(20409757,0,0,LOCATION_PZONE,2,POS_FACEUP) --Timegazer in scale
 
 --Player's Hand
 Debug.AddCard(94415058,0,0,LOCATION_HAND,0,POS_FACEDOWN) --Stargazer
