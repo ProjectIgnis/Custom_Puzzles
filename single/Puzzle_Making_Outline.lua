@@ -31,4 +31,5 @@ aux.BeginPuzzle() --Start's it as a puzzle. Remove to allow muti turns / debuggi
 --Debug.Message(any message here)
 --Debug.PreEquip(e1,c1)
 --Debug.AddCard (int code, int owner, int player, int location, in seq, int pos[, bool proc=false])) 
+--Example: Debug.AddCard(40640057,0,0,LOCATION_HAND,0,POS_FACEDOWN) 
 --Add a card of (int code), owned by (int owner) and under (int player)'s control, to (int seq) of (int location) in (int pos) position. If (bool proc) is true, it will be treated as properly summoned for the purposes of revive limits. 
