@@ -3,7 +3,7 @@ Debug.SetAIName("AlphaKretin")
 Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN + DUEL_SIMPLE_AI, 4)
 
 Debug.SetPlayerInfo(0, 8000, 0, 0)
-Debug.SetPlayerInfo(1, 5803600, 0, 0) --TODO: change to enough LP to need so much ATK to wear down
+Debug.SetPlayerInfo(1, 5803600, 0, 0)
 
 --player's field
 Debug.AddCard(26439287, 0, 0, LOCATION_MZONE, 4, POS_FACEUP_ATTACK) --Proto Cyber Dragon, gains Phalanx Pike buff without contributing to it
@@ -49,7 +49,7 @@ Debug.AddCard(37742478, 1, 1, LOCATION_HAND, 0, POS_FACEDOWN) --Honest
 Debug.AddCard(37742478, 1, 1, LOCATION_HAND, 0, POS_FACEDOWN) --Honest
 
 --player's GY
---as many Cyber Dragon names as possible, 6 each because sent by "Tag Partner"
+--as many Cyber Dragon names as possible
 --TODO: Add Cyber Dragon Naechster
 Debug.AddCard(70095154, 0, 0, LOCATION_GRAVE, 0, POS_FACEUP) --Cyber Dragon
 Debug.AddCard(70095154, 0, 0, LOCATION_GRAVE, 0, POS_FACEUP) --Cyber Dragon
